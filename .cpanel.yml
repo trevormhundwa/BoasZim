@@ -4,3 +4,9 @@ deployment:
     - export DEPLOYPATH=/home/boaszimc/public_html/
     - /bin/cp index.html $DEPLOYPATH 
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+
+
+    
+
+			

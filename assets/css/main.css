@@ -225,22 +225,6 @@ input, select, textarea {
 		width: 1140px;
 	}
 
-		@media screen and (max-width: 1680px) {
-
-			.container {
-				width: 960px;
-			}
-
-		}
-
-		@media screen and (max-width: 1080px) {
-
-			.container {
-				width: 95%;
-			}
-
-		}
-
 /* Row */
 
 	.row {
@@ -2399,6 +2383,7 @@ input, select, textarea {
 
 			.card-text{
 				text-align: left;
+				margin: 2em 0;
 			}
 
 			.aboutTxt{
@@ -2491,18 +2476,40 @@ input, select, textarea {
 			}
 
 			.lubesCopy{
-		color: #143359;
-		padding: 0 6rem;
+				color: #143359;
+				padding: 0 6rem;
 			}
 
 			.lubesImages{
 
 				display: flex;
 				justify-content:  space-around;
+				padding: 0 6em;
 			}
 
 			.lubesImages img{
 				max-height:286px;
+			}
+
+			.lubeCard{
+				display: flex;				
+				justify-content:  space-around;
+				margin: 1em;
+			}
+
+			.card{
+				border: none;
+			}
+
+			.card-text{
+				text-align: left;
+				line-height: normal;
+				padding: .5em;
+				color: rgb(20, 51, 89);	
+			}
+
+			.aboutTxt{
+				padding: 0 6em;
 			}
 
 			.contact-home{
@@ -2532,6 +2539,7 @@ input, select, textarea {
 				margin-top: auto;
 margin-bottom: auto;
 			}
+		}
 
 /* Narrow */
 
@@ -2799,25 +2807,9 @@ margin-bottom: auto;
 				font-size: 1em;
 				margin: 0 0 4em 0;
 			}
-
-		/* Poptrox */
-
-			.poptrox-popup .nav-next,
-			.poptrox-popup .nav-previous {
-				opacity: 1.0;
-			}
-
-				.poptrox-popup .nav-next:before,
-				.poptrox-popup .nav-previous:before {
-					display: none;
-				}
-
-			.poptrox-popup .closer {
-				opacity: 0.5;
-			}
-
-	}
 	
 	.navbar-toggler {
 		border:none;
-	}}
+	}
+
+}
