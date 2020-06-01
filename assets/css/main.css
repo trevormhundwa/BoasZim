@@ -2367,6 +2367,20 @@ input, select, textarea {
 				font-size: 16px;
 			}
 
+			#headerAbout{       
+				padding: 0;
+				z-index: -1;
+				background: url('../css/images/hero-about-mobile.jpg') no-repeat left top;
+				background-size: contain;
+				position: relative;
+				display: flex;
+				min-height: 600px;
+
+			}
+			.aboutImage{
+				width: 100%;
+			}
+
 			.lubesCopy{
 				text-align: left;
 				padding: 1em;
@@ -2506,6 +2520,7 @@ input, select, textarea {
 				line-height: normal;
 				padding: .5em;
 				color: rgb(20, 51, 89);	
+				
 			}
 
 			.aboutTxt{
