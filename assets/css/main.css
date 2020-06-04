@@ -2341,10 +2341,11 @@ input, select, textarea {
 			#header {        
 				padding: 5em 0;
 				z-index: -1;
-				background: url('../css/images/hero-mobile.jpg') no-repeat center top;
-				margin: -8em 0 0 0;
+				background: url('../css/images/hero-mobile.jpg') no-repeat;
+				margin: 0;
 				display: flex;
-				min-height: 900px;
+				background-size: cover;
+				min-height: 600px;
 			}
 
 			.hero-text{
@@ -2383,12 +2384,17 @@ input, select, textarea {
 
 			.lubesCopy{
 				text-align: left;
-				padding: 1em;
+				color: #143359;
 			}
 
 			.lubeCard{
 				display: flex;
-				margin: 1em;
+			}
+
+			.lubeCard img{
+				width: 150px;
+				height: auto;				
+				margin: 0 auto;
 			}
 
 			.card{
@@ -2397,7 +2403,14 @@ input, select, textarea {
 
 			.card-text{
 				text-align: left;
-				margin: 2em 0;
+				margin-bottom: 3em !important;
+				color: #143359;
+			}
+
+			.card-title {
+				margin-bottom: 0;
+				margin-top: 1em;
+				color: #143359;
 			}
 
 			.aboutTxt{
@@ -2415,6 +2428,11 @@ input, select, textarea {
 			.submitBtn{
 				background-color: red;
 				margin: 1em;
+			}
+
+			.contact-info{
+				
+				color: #143359;
 			}
 
 
@@ -2533,6 +2551,7 @@ input, select, textarea {
 
 			.contact-info{
 				margin-left: 2em;
+				color: #143359;
 			}
 
 			.contact-info li{
